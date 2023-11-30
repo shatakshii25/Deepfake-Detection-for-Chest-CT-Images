@@ -4,6 +4,7 @@ Abstract-
 Medical imaging is the non-invasive process of producing internal visuals of a body for the purpose of medical examination, analysis, and treatment. Numerous attacks on clinics and hospitals occurred in 2018, resulting in serious data breaches and delays in medical services. When an attacker has access to medical records, they are able to do far more than just demand a ransom or sell the information. One method of creating deepfakes is to inject and remove tumours from medical imaging. Failure to recognise medical deepfakes might result in significant losses of hospital resources or even death. Hence, we attempted to build a machine learning model and train it to carry out detection between original images and deepfakes created and analyse them. 
 
 Dataset - https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia
+
 The dataset is organized into 3 folders (train, test, val) and contains subfolders for each image category (Pneumonia/Normal). There are 5,863 X-Ray images (JPEG) and 2 categories (Pneumonia/Normal).
 Chest X-ray images (anterior-posterior) were selected from retrospective cohorts of pediatric patients of one to five years old from Guangzhou Women and Children’s Medical Center, Guangzhou. All chest X-ray imaging was performed as part of patients’ routine clinical care.
 
